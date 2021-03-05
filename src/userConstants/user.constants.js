@@ -1,0 +1,14 @@
+
+var BASE_URL = "https://carolineolds-strapi-dev.q.starberry.com/";
+
+export const userConstants = {
+
+  LIST_SEARCH_RESULT : BASE_URL+'properties',
+
+  LIST_DATA_REQUEST : "LIST_SEARCH_DATA_REQUEST",
+  LIST_DATA_SUCCESS : "LIST_SEARCH_DATA_SUCCESS",
+  LIST_DATA_FAILURE : "LIST_SEARCH_DATA_FAILURE",
+
+  SELECTED_DETAILVIEW_REQUEST : "SELECTED_PROPERTY_DETAILVIEW_REQUEST",
+
+}

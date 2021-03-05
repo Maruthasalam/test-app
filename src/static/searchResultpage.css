@@ -1,0 +1,119 @@
+.bg_color{
+    background-color: #f2f2f2;
+}
+.header_title{
+    color: #777676;
+    /* opacity: 0.9; */
+    font-size: 28px;
+    font-weight: 600;
+}
+.header_subtitle{
+    font-size: 20px;
+    color: black;
+}
+.price{
+  font-weight: 600;
+}
+.img_height{
+    height: 230px;
+}
+.discrip{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+.borderline{
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .posdiv{
+      position: absolute;
+      top: 45%;
+      left: 45%;
+  }
+  .likediv{
+      float: right;
+      width: 20%;
+  }
+  .likeic{
+      padding: 10px;
+  }
+ .likediv .a{
+      color: black !important;
+  }
+  .property_price{
+      font-weight: 600;
+      font-size: 20px;
+      text-align: left;
+  }
+  .homeic{
+      color: goldenrod !important;
+  }
+  .colr{
+    color: goldenrod;
+    text-decoration: underline;
+  }
+  .head2{
+      font-weight: 400;
+      font-size: 16px;
+  }
+  .detail_dicr{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .profilediv{
+      width: 20%;
+      float: left;
+  }
+  .userinfodiv{
+    width: 50%;
+    float: left;
+  }
+  .userprof{
+      width: 90px;
+      height: 90px;
+  }
+  .imagehight{
+      height: 150px;
+  }
+  .overlaycontainer .btn{
+    position: absolute;
+    top:10%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  }
+  .textdecor{
+    text-decoration: underline;
+  }
